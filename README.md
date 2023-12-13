@@ -1,6 +1,6 @@
 # PasswordManager
 
-This a personal project.
+This is a personal project.
 
 For the moment, this repository contains 2 classes which help to generate and store strong passwords.
 
