@@ -9,4 +9,4 @@ Here are the ideas of the Password class:
 
 For the moment, the Manager class is basic: some updates and improvements need be done.
 
-Also, for each class, tests were performed in order to check the functions of the class. I let them in the code, so you can also check by yourself.
+Also, for each class, tests were performed in order to check the functions of the class. I let them in the code, so you are able to check by yourself.
