@@ -8,3 +8,5 @@ Here are the ideas of the Password class:
 - before returning the password, the generate function checks if the contraints of the types are respected. If it does, the password is returned, otherwise another one is generated. Therefore, the generate function is a recursive function.
 
 For the moment, the Manager class is basic: some updates and improvements need be done.
+
+Also, for each class, tests were performed in order to check the functions of the class. I let them in the code, so you can also check by yourself.
