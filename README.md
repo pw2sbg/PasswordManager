@@ -1,6 +1,6 @@
 # PasswordManager
 
-This repository contains, for the moment, 2 classes which help to generate and store strong passwords.
+For the moment, this repository contains 2 classes which help to generate and store strong passwords.
 
 Here are the ideas of the Password class:
 - a password is strong if it contains characters from different types (i.e: lowercases, uppercases, digits, symbols)
