@@ -13,3 +13,5 @@ For the moment, the Manager class is basic: some updates and improvements need b
 In the end, the idea is to get a single password (generated with the prervious class) in order to access them all.
 
 Also, for each class, tests were performed in order to check the functions of the class. I let them in the code, so you are able to check by yourself.
+
+Feel free to contact me if you have any recommandation!
