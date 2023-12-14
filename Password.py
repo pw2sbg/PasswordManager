@@ -141,8 +141,8 @@ class Password:
 
 
 # Test 1: check_type
-p = Password("a", 2, 2, 2, 2)
-print(p.generate())
+# p = Password("a", 2, 2, 2, 2)
+# print(p.generate())
 # output:
 
 # Test 2.1: check_assertion
