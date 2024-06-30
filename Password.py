@@ -29,8 +29,6 @@ class Password:
             
         if self._length < 8:
             raise ValueError("The password must contain at least 8 characters")
-        else:
-            self._n = self._lowercase_number + self._uppercase_number + self._digit_number + self._symbol_number
         
         if (self._lowercase_number<2 or self._uppercase_number<2 or self._digit_number<2 or self._symbol_number<2):
             raise ValueError("The password must contain at least 2 characters of each type (i.e lowercases, uppercases, digits, symbols)")
