@@ -61,7 +61,7 @@ class Password:
                 character = self.__get_character()
             self._password += character
 
-        if not self.__check_numbers():
+        if not self.__check_numbers(self._password):
             self._password = self.generate()
 
         return self._password
@@ -77,10 +77,10 @@ class Password:
 
 
     
-    def __check_numbers(self) -> bool:
+    def __check_numbers(self, password: str) -> bool:
 
         lowercase_counter, uppercase_counter, digit_counter, symbol_counter = 0, 0, 0, 0
-        for character in self._password:
+        for character in password:
             if character in self._lowercases:
                 lowercase_counter += 1
             elif character in self._uppercases:
