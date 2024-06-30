@@ -13,6 +13,7 @@ class Password:
         self._uppercase_number = uppercase_number
         self._digit_number = digit_number
         self._symbol_number = symbol_number
+        self._length = self._lowercase_number + self._uppercase_number + self._digit_number + self._symbol_number
 
         self.__check_assertion()
  
@@ -54,7 +55,7 @@ class Password:
 
         self._password = ''        
 
-        while len(self._password) < self._lowercase_number + self._uppercase_number + self._digit_number + self._symbol_number:
+        while len(self._password) < self._length:
             character = self.__get_character()
             # The ideal password does not contain duplicates
             # If it does, we select another character randomly
