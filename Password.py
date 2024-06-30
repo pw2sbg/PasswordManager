@@ -27,7 +27,7 @@ class Password:
         if ( type(self._lowercase_number) != int or type(self._uppercase_number) != int or type(self._digit_number) != int or type(self._symbol_number) != int):
             raise ValueError("Parameters must be integers")
             
-        if self._lowercase_number + self._uppercase_number + self._digit_number + self._symbol_number < 8:
+        if self._length < 8:
             raise ValueError("The password must contain at least 8 characters")
         else:
             self._n = self._lowercase_number + self._uppercase_number + self._digit_number + self._symbol_number
